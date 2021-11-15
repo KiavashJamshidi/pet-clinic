@@ -13,13 +13,13 @@ public class SimplePriceCalculatorTest {
 	private double BASE_RARE_COEF;
     private double baseCharge;
 	private double BASE_PRICE_PER_PET;
-	private UserType newUser = UserType.NEW;
-	private UserType oldUser = UserType.SILVER;
+	private UserType newUser;
+	private UserType oldUser ;
     private SimplePriceCalculator simplePriceCalculator;
 
     @BeforeClass
     public void setUp(){
-        this.BASE_RARE_COEF = 1.1;
+        this.BASE_RARE_COEF = 1.2;
         this.baseCharge = 100;
         this.BASE_PRICE_PER_PET = 40;
         this.newUser = UserType.NEW;
